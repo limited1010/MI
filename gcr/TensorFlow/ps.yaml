@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: ps
-          image: gcr.io/tensorflow/tensorflow:latest
+          image: gcr.io/tensorflow/tensorflow:latest-devel
           imagePullPolicy: IfNotPresent
           ports:
            - containerPort: 2222
